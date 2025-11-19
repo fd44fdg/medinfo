@@ -1,0 +1,7 @@
+{
+  "name": "MedInfo-AI",
+  "description": "A friendly, intelligent medical report interpretation assistant powered by Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

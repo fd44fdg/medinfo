@@ -1,12 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏥 MedInfo-AI: 智能体检报告解读助手 (MVP)
 
-# Run and deploy your AI Studio app
+> 基于 LLM (Large Language Model) 的个人健康数据解读工具，致力于解决医疗信息不对称与体检报告“难读懂”的痛点。
 
-This contains everything you need to run your app locally.
+## 🌟 项目背景
+作为医学信息工程专业的学生，我发现普通用户面对体检报告中的专业术语（如“窦性心律不齐”、“ALT偏高”）时常产生不必要的恐慌。本项目利用 RAG（检索增强生成）思想与 Prompt Engineering，将晦涩的医疗数据转化为通俗易懂的生活化建议。
 
-View your app in AI Studio: https://ai.studio/apps/drive/1mF3FjBkbzN7L-3gNbH7W3WY3Q4yay0fv
+## ⚡️ 核心功能
+- **📷 结构化提取**：支持将复杂的非结构化文本转化为可视化的关键指标卡片。
+- **🛡️ 隐私与合规**：前端 PII (个人敏感信息) 脱敏处理，强制植入医疗免责声明。
+- **🧠 幻觉抑制**：通过 System Prompt 优化，有效识别“生理性异常”与“病理性异常”，避免过度医疗建议。
+
+## 🛠️ 技术栈
+- **Frontend/Backend**: Python, Streamlit
+- **AI Core**: OpenAI API / DeepSeek (兼容 OpenAI 格式)
+- **Deployment**: Streamlit Community Cloud
+
+## 🚀 快速开始
+1. Clone 本项目
+   ```bash
+   git clone https://github.com/fd44fdg/medinfo.git
 
 ## Run Locally
 
